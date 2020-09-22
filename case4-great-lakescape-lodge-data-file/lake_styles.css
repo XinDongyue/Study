@@ -1,0 +1,131 @@
+﻿@charset "utf-8";
+@font-face {
+   font-family: cac_champagne;
+   src: url('cac_champagne.woff');
+}
+@font-face {
+   font-family: DobkinPlain;
+   src: url('DobkinPlain.ttf');
+}
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: lake_styles.css
+
+*/
+html {
+   background-color: rgb(202, 204, 138);
+}
+/* set the background color */
+body > section#leftcol > h1{
+   font-family: cac_champagne;
+   font-size: 80px;
+   margin: 10px auto 10px 5px;
+}
+/* set "welcome" charset and size, and set up and down margin */
+body > section#rightcol > nav > h2{
+   font-family: cac_champagne;
+   font-size: 40px;
+}
+/* set right colum's charset and size */
+body {
+   background-color: rgb(88, 45, 90);
+}
+/* set body's background's color */
+body > header{
+   font: 1em sans-serif;
+   font-size: 20px;
+   background-color: rgb(120, 74, 119);
+}
+/* set color's charset and background's color */
+body > header > nav {
+   padding: 10px 0px 10px 0px;
+}
+body > section#leftcol{
+   background-color: black;
+   font: 1em sans-serif;
+   color: white;
+   text-align: left;
+}
+/* to set left col's background and char's color */
+body > section#leftcol > p{
+   font-weight: 600;
+   font-size: 15px;
+   padding: 5px 20px 5px 20px;
+}
+body > section#rightcol > nav > h2{
+   color: white;
+}
+/* set right col's color */
+body > section#rightcol > nav > ul{
+   list-style-type: none;
+}
+/* to get right's "·" away */
+body > section#leftcol > aside#leftaside{
+   background-color: rgb(227, 162, 142);
+   text-align: center;
+}
+/* set left aside's "NOTE" */
+body > section#leftcol > aside#leftaside > h1{
+   font-size: 25px;
+   margin: 5px auto 20px auto;
+}
+/* set right aside's */
+body > section#leftcol > aside#leftaside > ul{
+   font-size: 15px;
+   font-weight: 300;
+   line-height: 200%;
+}
+/* set left aside's text and margins */
+body > section#leftcol > aside#rightaside > h1{
+   font-size: 25px;
+   margin: 5px auto 20px auto;
+}
+/* set right aside's margins */
+body > section#leftcol > aside#leftaside > ul{
+   list-style-type: circle;
+   text-align: left;
+}
+body > section#leftcol > aside#rightaside{
+   background-color: rgb(207, 187, 114);
+}
+/* set right asides' color */
+body > section#leftcol > aside#rightaside > p{
+   padding: 0px 0px 0px 10px;
+}
+/* set right asides' text's margin */
+body > section#leftcol > aside#rightaside > h1{
+   text-align: center;
+}
+body > footer{
+   background-color: rgb(77, 70, 78);
+   text-align: center;
+   color: rgba(255, 255, 255, 0.5);
+}
+/* set fotter's color */
+body > section#rightcol > blockquote{
+   color: rgb(181, 101, 181);
+   font-size: 20px;
+   margin: 50px auto auto 15px;
+}
+#rightcol a:link{text-decoration: none;color: rgba(255, 255, 255, 0.5);}
+#rightcol a:visited{text-decoration: none;color: rgb(138, 112, 142);}
+#rightcol a:hover{text-decoration: none;color: rgba(255, 255, 255, 0.5);}
+#rightcol a:active{text-decoration: none;color:rgb(138, 112, 142) ;}
+#rightcol blockquote::before{
+	content: '"';
+}
+#rightcol blockquote::after{
+	content: '"';
+}
+ a:link{text-decoration: none;color: rgba(255, 255, 255, 0.5);}
+ a:visited{text-decoration: none;color: rgb(138, 112, 142);}
+ a:hover{text-decoration: none;color: rgba(255, 255, 255, 0.5);}
+ a:active{text-decoration: none;color:rgb(138, 112, 142) ;}
+/* Use of pseudo-elements and pseudo-classes as selectors. */
